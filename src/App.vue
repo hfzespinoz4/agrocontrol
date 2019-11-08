@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="container">
     <header>
       <ul class="main-menu">
         <router-link @click="showHomePage" tag="li" to="/" exact><a>Home </a> </router-link>
-        <router-link @click="showInfoPage" tag="li" to="/information" exact><a>AgroControl </a> </router-link>
-        <router-link @click="showDemoPage" tag="li" to="/demo" exact><a>Demo </a></router-link>
+        <router-link @click="showInfoPage" tag="li" to="/information" exact><a>Information </a> </router-link>
+        <router-link @click="showDemoPage" tag="li" to="/demo" exact><a>AgroControl </a></router-link>
         <router-link @click="showContactPage" tag="li" to="/contact" exact><a>Contact </a></router-link>
       </ul>
     </header>
@@ -74,4 +74,5 @@ li{
     justify-content: space-around;
     text-decoration-style: none;
 }
+
 </style>
