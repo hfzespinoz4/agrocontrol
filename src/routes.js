@@ -7,6 +7,7 @@ import NotFoundPage from './components/Pages/NotFoundPage.vue';
 
 /* Enlaces de navegación aplicación */
 
+import consultas from './components/app/consultas';
 import consumo from './components/app/consumo';
 import empleados from './components/app/empleados';
 import equipos from './components/app/equipos';
@@ -23,6 +24,7 @@ export default [
     { path: '/demo', component: DemoPage },
     { path: '/information', component: InfoPage},
     { path: '/app', component: main},
+    { path: '/app/consultas', component: consultas},
     { path: '/app/consumos', component: consumo},
     { path: '/app/empleados', component: empleados},
     { path: '/app/equipos', component: equipos},

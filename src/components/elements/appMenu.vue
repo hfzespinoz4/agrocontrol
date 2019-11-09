@@ -2,6 +2,7 @@
     <div>
         <ul class="app-menu">
             <router-link @click="isShownRegistrar" tag="li" to="/app/registrar" class="my-3" exact><a>Registrar </a> </router-link>
+            <router-link @click="isShownConsultas" tag="li" to="/app/consultas" class="my-3" exact><a>Consultas </a> </router-link>
             <router-link @click="isShownEquipos" tag="li" to="/app/equipos" class="my-3" exact><a>Equipos </a> </router-link>
             <router-link @click="isShownConsumo" tag="li" to="/app/consumos" class="my-3" exact><a>Consumo </a> </router-link>
             <router-link @click="isShownServicios" tag="li" to="/app/servicios" class="my-3" exact><a>Servicios </a> </router-link>
@@ -22,6 +23,7 @@ export default {
     data: function() {
         return{
             isShownRegistrar: true,
+            isShownConsultas: false,
             isShownEquipos: false,
             isShownConsumo: false,
             isShownServicios: false,
