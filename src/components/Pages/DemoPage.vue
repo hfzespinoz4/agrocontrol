@@ -10,11 +10,17 @@
                 <button class="btn btn-form btn-acept">Login</button>
             </div>
         </div>
+        <footermsg/>
     </div>
 </template>
 <script>
+import footermsg from '../elements/footermsg'
+
 export default {
     name: "DemoPage",
+    components:{
+        footermsg
+    }
 }
 </script>
 <style scoped>

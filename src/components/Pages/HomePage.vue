@@ -11,11 +11,18 @@
         Inventore a fuga, nesciunt recusandae, in facilis sed, quae quis eveniet dolorem commodi vitae nemo enim similique. Quam, nisi? Inventore eius delectus iure ut eaque quis repudiandae velit, nisi amet.
         Consequatur eum dolorum molestiae alias vel minus odio omnis doloribus tenetur eius qui, perspiciatis at dolor aliquid. Nisi neque itaque totam corrupti quasi. Aut saepe voluptates, provident accusantium incidunt eius.
         Beatae, earum enim nostrum atque quia hic, similique temporibus deserunt quod totam debitis voluptas inventore molestiae corrupti adipisci excepturi. Amet labore non temporibus hic animi iure minima corrupti sequi ullam.</p>
+        <footermsg/>
     </div>
+    
 </template>
 <script>
+import footermsg from '../elements/footermsg'
+
 export default {
     name: "HomePage",
+    components: {
+        footermsg
+    }
 }
 </script>
 <style scoped>

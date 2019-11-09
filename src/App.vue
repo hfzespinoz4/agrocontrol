@@ -2,10 +2,10 @@
   <div class="container">
     <header>
       <ul class="main-menu">
-        <router-link @click="showHomePage" tag="li" to="/" exact><a>Home </a> </router-link>
-        <router-link @click="showInfoPage" tag="li" to="/information" exact><a>Information </a> </router-link>
-        <router-link @click="showDemoPage" tag="li" to="/demo" exact><a>AgroControl </a></router-link>
-        <router-link @click="showContactPage" tag="li" to="/contact" exact><a>Contact </a></router-link>
+        <router-link @click="isShownHomePage" tag="li" to="/" exact><a>Home </a> </router-link>
+        <router-link @click="isShownInfoPage" tag="li" to="/information" exact><a>Information </a> </router-link>
+        <router-link @click="isShownMain" tag="li" to="/app" exact><a>AgroControl </a></router-link>
+        <router-link @click="isShownContactPage" tag="li" to="/contact" exact><a>Contact </a></router-link>
       </ul>
     </header>
     <main>
@@ -26,7 +26,8 @@ export default {
       isShownHomePage: true,
       isShownProductsPage: false,
       isShownDemoPage: false,
-      isShownContactPage: false
+      isShownContactPage: false,
+      isShownMain: false
     };
   }
 }
