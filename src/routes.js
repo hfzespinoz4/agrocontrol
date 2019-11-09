@@ -17,8 +17,6 @@ import servicios from './components/app/servicios';
 import usuarios from './components/app/usuarios';
 import main from './components/app/main';
 
-
-
 export default [
     { path: '/', component: HomePage },
     { path: '/contact', component: ContactPage },    
