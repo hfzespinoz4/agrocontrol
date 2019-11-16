@@ -2,10 +2,35 @@
     <div>
         <div class="d-flex">            
             <appMenu class="col-3"/>
-            <div class="col-9">
-                <h2>Mi Empresa</h2>
+            <div class="col-9 mt-2">
+                <h2>Inversiones Agrícolas, S.L.</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas officiis minus id corrupti blanditiis incidunt aperiam? Quia, commodi, voluptas odio explicabo adipisci minus, fugit ut totam aspernatur corporis placeat.Nesciunt cupiditate voluptatibus cumque est nisi! Nesciunt doloribus facere, distinctio similique dolor explicabo aliquid nisi dolorem dignissimos culpa sed enim quisquam ducimus necessitatibus corrupti consequatur. Labore iste tenetur aut possimus?</p>   
+                <div>
+                    <p>CIF: </p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Responsable: </p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Cargo: </p>
+                    <p></p>
+                </div>
+                 <div>
+                    <p>Dirección: </p>
+                    <p></p>
+                </div>
+                 <div>
+                    <p>Teléfono: </p>
+                    <p></p>
+                </div>
+                 <div>
+                    <p>Email: </p>
+                    <p></p>
+                </div>
+
+                   
             </div>
         </div>
         <footermsg/>
@@ -14,6 +39,18 @@
 <script>
 import appMenu from '../elements/appMenu'
 import footermsg from '../elements/footermsg'
+
+/*
+const firebaseConfig = {
+    apiKey: "AIzaSyATMPbeq_gACjKBVov_NYNkvb5tdouFv_w",
+    authDomain: "agrocontrol-de9a5.firebaseapp.com",
+    databaseURL: "https://agrocontrol-de9a5.firebaseio.com",
+    projectId: "agrocontrol-de9a5",
+    storageBucket: "agrocontrol-de9a5.appspot.com",
+    messagingSenderId: "922799928997",
+    appId: "1:922799928997:web:1882418bb9f3c628b47f4c",
+    measurementId: "G-GR2JG3V6S3"
+};*/
 
 export default {
     name: 'miempresa',

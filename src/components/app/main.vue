@@ -10,6 +10,7 @@
 import footermsg from '../elements/footermsg'
 import appMenu from '../elements/appMenu'
 
+
 export default {
     name: 'main',
     components: {

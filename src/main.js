@@ -4,6 +4,11 @@ import routes from "./routes.js";
 import App from './App.vue'
 
 Vue.use(VueRouter);
+/*
+//Firebase Configuration
+import vueFire from 'vuefire';
+vue.use(vueFire);
+*/
 
 const router = new VueRouter({
   mode:'history',

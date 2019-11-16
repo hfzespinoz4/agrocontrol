@@ -5,7 +5,9 @@
             <div class="col-9">
                 <h2>Empleados</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas officiis minus id corrupti blanditiis incidunt aperiam? Quia, commodi, voluptas odio explicabo adipisci minus, fugit ut totam aspernatur corporis placeat.Nesciunt cupiditate voluptatibus cumque est nisi! Nesciunt doloribus facere, distinctio similique dolor explicabo aliquid nisi dolorem dignissimos culpa sed enim quisquam ducimus necessitatibus corrupti consequatur. Labore iste tenetur aut possimus?</p>   
+                <appCrearEmpleado/>
+                <appRegistrosEmpleados/>
+                
             </div>
         </div>
         <footermsg/>
@@ -13,12 +15,16 @@
 </template>
 <script>
 import appMenu from '../elements/appMenu'
+import appCrearEmpleado from '../elements/appCrearEmpleado'
+import appRegistrosEmpleados from '../elements/appRegistrosEmpleados'
 import footermsg from '../elements/footermsg'
 
 export default {
     name: 'empleados',
     components: {
         appMenu,
+        appCrearEmpleado,
+        appRegistrosEmpleados,
         footermsg
     }
 }
