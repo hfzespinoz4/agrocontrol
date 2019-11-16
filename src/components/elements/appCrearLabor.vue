@@ -10,6 +10,7 @@
             <label for="task-description">Descripción: </label>
             <input type="text" id="task-description">
         </div>
+        TODO: Incluir los campos de Etapa (Preparación de Suelo, Siembra, Manejo y Sanidad, Cosecha) 
         <div>
             <label for="task-state">Estado: </label>
             <select name="task-state" id="task-state">
