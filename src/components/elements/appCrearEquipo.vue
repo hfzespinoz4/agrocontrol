@@ -25,6 +25,10 @@
                 <input type="text" id="machine-model">
             </div>
             <div>
+                <label for="machine-year">Año:</label>
+                <input type="number" id="machine-year">
+            </div>
+            <div>
                 <label for="machine-serialnumber">Numero de Serie:</label>
                 <input type="text" id="machine-serialnumber">
             </div>
@@ -49,6 +53,10 @@
             <div>
                 <label for="machine-owner">Propietario:</label>
                 <input type="text" id="machine-owner">
+            </div>
+            <div>
+                <label for="machine-bill">Factura No:</label>
+                <input type="text" id="machine-bill">
             </div>
             <div>
                 <label for="machine-price">Precio Total (€):</label>

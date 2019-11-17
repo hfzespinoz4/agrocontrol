@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="d-flex">            
-            <appMenu class="col-3"/>
-            <div class="col-9 mt-2">
+            <appMenu class="col-2"/>
+            <div class="col-10 mt-2">
                 <h2>Inversiones Agrícolas, S.L.</h2>
                 <hr>
                 <div>

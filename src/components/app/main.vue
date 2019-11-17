@@ -1,7 +1,7 @@
 <template>
     <div>
-        <appMenu/>       
-        <rotuer-view>
+        <appMenu class="col-2" />       
+        <rotuer-view class="col-10">
         </rotuer-view>
         <footermsg/>
     </div>    
@@ -22,6 +22,7 @@ export default {
         return{
             isShownRegistrar: true,
             isShownEquipos: false,
+            isShownParcelas: false,
             isShownConsumo: false,
             isShownServicios: false,
             isShownLabores: false,

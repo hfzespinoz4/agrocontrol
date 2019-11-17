@@ -3,11 +3,11 @@
         <div class="d-flex">            
             <appMenu class="col-2"/>
             <div class="col-10">
-                <h2>Consumos</h2>
+                <h2>Parcelas</h2>
                 <br>
-                <appCrearConsumo/>
+                <appCrearParcelas/>
                 <br>
-                <appRegistrosConsumos/>
+                <appRegistrosParcelas/>
             </div>
         </div>
         <footermsg/>
@@ -15,16 +15,16 @@
 </template>
 <script>
 import appMenu from '../elements/appMenu'
-import appCrearConsumo from '../elements/appCrearConsumo'
-import appRegistrosConsumos from '../elements/appRegistrosConsumos'
+import appCrearParcelas from '../elements/appCrearParcelas'
+import appRegistrosParcelas from '../elements/appRegistrosParcelas'
 import footermsg from '../elements/footermsg'
 
 export default {
-    name: 'consumo',
+    name: 'registrar',
     components: {
         appMenu,
-        appCrearConsumo,
-        appRegistrosConsumos,
+        appCrearParcelas,
+        appRegistrosParcelas,   
         footermsg
     }
 }

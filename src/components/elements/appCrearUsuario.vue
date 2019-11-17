@@ -22,6 +22,17 @@
             <input type="email" id="user-email" v-model="newUserEmail">
             <p> {{invalidUserEmail}} </p>
         </div>
+        <div>
+            <label for="user-password">Contraseña:</label>
+            <input type="password" id="user-password" v-model="newUserPassword">
+        </div>
+        <div>
+            <label for="user-passwordval">Repita Contraseña:</label>
+            <input type="password" id="user-paswwordval" v-model="newUserPasswordVal">
+            <p>
+                <!-- TODO: Mensaje de validación de contraseña -->
+            </p>
+        </div>
         <br>
         <button @click="validateUser" class="btn btn-primary">Crear Usuario</button>
         <hr>

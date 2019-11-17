@@ -16,6 +16,8 @@ import miempresa from './components/app/miempresa';
 import registrar from './components/app/registrar';
 import servicios from './components/app/servicios';
 import usuarios from './components/app/usuarios';
+import parcelas from './components/app/parcelas';
+import mantenimientos from './components/app/mantenimientos';
 import main from './components/app/main';
 
 export default [
@@ -33,5 +35,7 @@ export default [
     { path: '/app/registrar', component: registrar},
     { path: '/app/servicios', component: servicios},
     { path: '/app/usuarios', component: usuarios},
+    { path: '/app/parcelas', component: parcelas},
+    { path: '/app/mantenimientos', component: mantenimientos},
     { path: '*', component: NotFoundPage },
   ];

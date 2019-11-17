@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="d-flex">            
-            <appMenu class="col-3"/>
-            <div class="col-9">
+            <appMenu class="col-2"/>
+            <div class="col-10">
                 <h2>Labores</h2>
                 <hr>
                 <appCrearLabor/>
