@@ -1,6 +1,6 @@
 <template>
     <div>
-        <appMenu class="col-2" />       
+        <appMenu class="col-2 navbar navbar-dark bg-primary" />       
         <rotuer-view class="col-10">
         </rotuer-view>
         <footermsg/>
