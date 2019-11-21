@@ -35,6 +35,8 @@
                     <li>GIthub</li>
                     <li>Google Sheets API</li>
                 </ul>
+            <br>
+            <a href="https://github.com/hfzespinoz4/agrocontrol"><img src="../media/github-logo.png" alt="enlace al repositorio"></a>
         </section>
         <br>
         <footermsg/>

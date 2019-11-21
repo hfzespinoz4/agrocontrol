@@ -1,5 +1,5 @@
 // Enlaces de navegación página principal
-import HomePage from './components/Pages/HomePage.vue';
+//import HomePage from './components/Pages/HomePage.vue';
 import ContactPage from './components/Pages/ContactPage.vue';
 import DemoPage from './components/Pages/DemoPage.vue';
 import InfoPage from './components/Pages/InfoPage.vue';
@@ -21,7 +21,7 @@ import mantenimientos from './components/mantenimientos';
 import main from './components/main';
 
 export default [
-    { path: '/', component: HomePage },
+    { path: '/', component: main},
     { path: '/contact', component: ContactPage },    
     { path: '/demo', component: DemoPage },
     { path: '/information', component: InfoPage},

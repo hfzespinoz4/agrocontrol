@@ -26,7 +26,7 @@ export default {
             isShownConsumo: true,
             isShownServicios: false,
             isShownLabores: false,
-            isShownEmpleados: false,
+            //isShownEmpleados: false,
             isShownUsuarios: false,
             isShownMiEmpresa: false
         };

@@ -6,7 +6,7 @@
         <h1 class="display-4">AgroControl</h1>
       </nav>
       <ul class="nav-links  bg-success justify-content-around">
-          <router-link class="col-sm-3" @click="isShownHomePage" tag="li" to="/" exact><a>Inicio </a> </router-link>
+          <!-- <router-link class="col-sm-3" @click="isShownHomePage" tag="li" to="/" exact><a>Inicio </a> </router-link> -->
           <router-link class="col-sm-3" @click="isShownInfoPage" tag="li" to="/information" exact><a>Información </a> </router-link>
           <router-link class="col-sm-3" @click="isShownMain" tag="li" to="/app" exact><a>AgroControl </a></router-link>
           <router-link class="col-sm-3" @click="isShownContactPage" tag="li" to="/contact" exact><a>Contacto </a></router-link>
@@ -27,10 +27,10 @@ export default {
   name: 'app',
   data: function() {
     return{
-      isShownHomePage: true,
+      isShownHomePage: false,
       isShownInfoPage: false,
       isShownContactPage: false,
-      isShownMain: false
+      isShownMain: true
     };
   }
 }
