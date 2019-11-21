@@ -2,13 +2,14 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from "./routes.js";
 import App from './App.vue'
-//Conexión Firebase-Vue
-import VueFire from 'vuefire';
+
+//Conf. VueFire
+const VueFire = require('vuefire');
 Vue.use(VueFire);
 
 
+//Conf. VueRouter
 Vue.use(VueRouter);
-
 const router = new VueRouter({
   mode:'history',
   routes

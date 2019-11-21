@@ -1,0 +1,802 @@
+/*Estilos Generales ===============================*/
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: #FDFEFE;
+    position: relative;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 0.6rem;   
+}
+
+p{
+    text-align: center;
+}
+
+hr{
+    border-style: solid;
+    border-color: rgb(207, 52, 39);
+    border-width: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /*line-height: 1.0; */
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background: linear-gradient(to top, #0076A2, rgb(250, 248, 248) 10%);  
+}
+
+/*Clases Generales================================================================*/
+
+.company-description{
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.space-bet-section{
+    margin-top: 0.3rem;
+    margin-bottom: 4rem;   
+}
+
+.main-promos{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items:center;
+}
+
+.us{
+    color: white;
+    text-align:center;
+    border-style:solid;
+    border-width: 1px;
+    background-color: #0076A2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);   
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 10rem;
+    max-height: 15rem;
+}
+
+.us:hover{
+    background-color: rgb(207, 52, 39);
+    background-image:none;
+}
+
+.company-section{
+    justify-content: space-between;
+    color: white;
+    padding: 10rem;;
+    padding-bottom: 4rem;
+    text-align:center;
+    border-style:solid;
+    border-width: 1px;
+    background-color: #0076A2;
+}
+
+.business-case{
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+   /* padding-left: 12rem;
+    padding-right: 11rem;*/
+    width: 22rem;
+    text-align:center;
+    font-size:1.5rem;
+    background-color: #0076A2;    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.business-case:hover{
+    background-color: rgb(207, 52, 39);
+    background-image:none;
+}
+
+.call-to-action{
+    background-color: rgb(207, 52, 39);
+    color: white;
+    padding: 1rem 4rem 1rem 4rem;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 33%;
+    position: relative;
+    z-index:100;
+}
+
+.hidden-title{
+    visibility: hidden;
+}
+
+.title-style{
+    text-align: center;
+    color: rgb(207, 52, 39);
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.products{
+    position: relative;   
+}
+
+.main-productos{
+    position: relative;
+    display: flex;
+    align-content: center;
+    margin-bottom: 2rem;
+}
+
+.main-productos:hover{
+    box-shadow: 0 10px 20px rgba(0,118,162,0.19), 0 6px 6px rgb(0, 119, 162);
+}
+
+.main-promos{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items:center;
+}
+
+.shadow{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 2rem;
+}
+
+.main-nbanner{
+    height: 12rem;
+    align-content: center;
+    color: black;
+}
+
+.serv-description{
+   /* margin: 1rem 0rem;*/
+    z-index:100;
+}
+
+#h1{
+    z-index:30;
+    padding-top: 3rem;
+    
+}
+
+.serv-info{
+    padding-top:4rem;
+    display: flex;
+    
+}
+
+.us-img{
+    min-width: 10rem;
+    max-width: 10rem;
+    min-height: 10rem;
+    max-height: 10rem;
+
+
+}
+
+/*Estilos del Header (Logo, Menú y Main Banner)=========================*/
+.main-banner{
+    /*background-image: url("../Media/bn-nube.jpg");*/
+    height: 10rem;
+    width: 71rem;
+    align-content: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 10rem;
+    position:relative;
+    display: block;
+    box-sizing: content-box;
+    /*float:none;*/
+}
+
+.banner-images{
+    width: 71rem;    
+}
+
+.title-container{
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    z-index: 1;
+    padding-top: 2rem;    
+}
+
+.banner-container{
+    position:absolute;
+    align-items: center;
+    justify-items: center;
+    z-index: -1;
+    width: 71rem; 
+
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+.company-logo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    align-content: space-around;
+    justify-items: center;
+    position:relative;
+    display:block;   
+}
+
+.nav-mmenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*min-height: 8vh;*/
+    background-color :  #0076A2;
+    height: 2.4rem;
+}
+
+.logo{
+    color: rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 0.5rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    /*width: 30%;*/
+    position: sticky;
+}
+
+.nav-links li{
+    list-style: none;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.nav-links li:hover, .nav-links li:active{
+    background-color: rgb(207, 52, 39);
+    transition: 1.1s ease;
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing:3px;
+    font-size: 16px;
+    width: 12rem;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/*Estilos del Footer============================================*/
+
+
+/*Página Nosotros================================================================*/
+.founders{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem;  
+}
+
+#mision{
+    text-align: center;
+    align-content: center;
+    position:relative;
+}
+
+.fndr-desc{
+    text-align: justify;
+    margin:0;
+}
+
+.img-founder{
+    width: 10rem;
+    height: 10rem;
+    margin-top:1.2rem;
+}
+
+.founder-desc{
+    width:40%;
+}
+
+.fndr-contact{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/*Estilo del Slide Partner==================================================*/
+.slider-partner{
+    align-items: center;
+    justify-items: center;
+    margin-left: 35%;
+    margin-top: 1.5rem;
+}
+
+.slideshow-container{
+    
+    position:relative;
+    /*margin:auto;*/
+    }
+   
+    .mySlides{
+    display:none;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    min-height: 10rem;
+    max-height: 11rem;
+    }
+   
+   .prev, .next{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    margin-top:-22px;
+    padding:16px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+    }
+
+    .next{
+    right:0;
+    border-radius:3px 0 0 3px;
+    }
+   
+    .prev:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+    }
+   
+    .fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s;
+    }
+   
+    @-webkit-keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+    }
+   
+    @keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+    }.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-size: 0.9rem;
+}
+/*Página Productos==============================================================*/
+
+.productos{
+    width:60rem;
+    display: flex;
+}
+
+.prod-section{
+    display:flex;
+    left: 0rem;
+}
+
+.products-list{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: AUTO;
+}
+
+.products-image{
+    width: 20rem;
+    height: 20rem;
+}
+
+.prods{
+    position:relative;
+    display: flexbox;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    animation-duration: 1s;
+    animation-name: fade-out;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow .2s ease-in-out,
+                transform .2 ease-in-out;
+    transform: translateY(0);
+}
+
+.description{
+    font-size:24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+    
+.details{
+color:#919191;
+font-size:1rem;
+font-weight:600;
+text-align:center;
+}
+
+.price{
+border-radius: 5px;
+padding: 0.1rem 0;
+text-align: center;
+}
+/*Página Contacto===============================================================*/
+
+.login {
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+.login-header {
+    background:#0076A2;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+  
+.login-container {
+    background: rgb(250, 248, 248);
+    padding: 12px;
+}
+  
+.login p {
+    padding: 12px;
+}
+  
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-size: 0.9rem;
+}
+  
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+  
+/*Efectos de foco en los campos de texto */
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    border-color: #888;
+}
+  
+input[type="submit"] {
+   background:  rgb(207, 52, 39);
+   border-color: transparent;
+   color: #fff;
+   cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+   background: rgb(207, 52, 39);
+}
+  
+/*Efecto de focos en botones */
+input[type="submit"]:focus {
+   border-color:orange;
+}
+
+.contact-image{
+   width: 15rem;
+   height: 15rem;
+}
+
+.contact-image:hover{
+    box-shadow: 0 10px 20px rgba(207, 52, 39,0.19), 0 6px 6px rgb(207, 52, 39);
+}
+
+.callto{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+textarea{
+    width: 30rem;
+    height: 10rem;
+    border-style: line;
+    border-color: #bbb;
+    color:#555;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form{
+    background: none;
+    align-content: center;
+}
+
+/*Media Querys==========================================================*/
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        /*width: 60%;
+        visibility: hidden;*/
+        justify-items: center;
+        align-items: center;
+        align-self: auto;
+    }
+
+    .main-promos{
+        flex-direction: column;
+    }
+
+    .us{
+        margin: 0.4rem 0rem;
+    }
+
+    .business-case{
+        width: 17rem;
+        margin: 0.4rem 0rem;
+    }
+
+    hr{
+        margin: 0rem 1rem;
+    }
+
+    .prods{
+        flex-direction: column;
+    }
+
+    .main-direction{
+        flex-direction: column;
+    }
+}
+   
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 12rem;
+        top: 8vh;
+        background-color:  #0076A2;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+    }
+
+    .nav-links li{
+        opacity: 0;
+        background-color:  #0076A2;
+        color:white;
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        z-index: inherit 1;
+        height: 100%;
+        width: 20rem;
+    }
+
+    .nav-links a{
+        z-index:1;
+    }
+
+    .burger{
+            display: block;
+            align-self: center;
+    }
+
+    .main{
+        margin: 0rem 1rem;
+    }
+
+    .main-promos{
+        flex-direction: column;
+    }
+
+    br{
+        margin: 0rem 1rem;
+    }
+
+    .slider-partner{
+        margin-left: 0;
+        margin-top: 0.3rem;
+        width:15rem;
+        height: 10rem;
+    }
+
+    .mySlides{
+        width:15rem;
+        height: 30rem;
+    }
+
+    
+    .founder-desc{
+        flex-direction: column;
+        display: block;
+    }
+
+    .fndr-desc{
+        flex-direction: column;
+    }
+
+    .founders{
+        display: block;
+        flex-direction: column;
+        margin: 0.3rem; 
+        width:40rem;
+        align-content: center;
+        justify-content: center;   
+    }
+
+    .main-banner{
+        width: 20rem;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+
+    .banner-container{
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+
+    .serv-info{
+        margin-left:0;
+        width: 20rem;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .banner-images{
+        width: 19.5rem;
+        height: 12rem;
+    }
+
+    #h1{
+        margin-top: 3rem;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    .serv-description{
+        font-size:0.5rem;
+    }
+
+    .call-to-action{
+        margin-left: 3rem;
+        margin-right: 0rem;
+        align-self: center;
+        justify-self: center;
+        position: relative;
+    }
+
+    .serv-container{
+        margin-top: 3rem;
+    }
+
+    .login {
+        width: 15rem;
+        margin: 0.5rem auto;
+        font-size: 0.8rem;
+    }
+
+    .login input {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-width: 1px;
+        border-style: solid;
+        padding: 0.7rem;
+        outline: 0;
+        font-size: 0.9rem;
+    }
+
+    textarea{
+        width: 15rem;
+        height: 12rem;
+    }
+
+    .callto{
+        display: flex;
+        flex-direction: column;   
+    }
+}
+   
+.nav-active{
+    transform: translateX(0%);
+}
+   
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX()
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+

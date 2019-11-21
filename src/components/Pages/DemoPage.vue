@@ -14,7 +14,7 @@
     </div>
 </template>
 <script>
-import footermsg from '../elements/footermsg'
+import footermsg from '../footermsg'
 
 export default {
     name: "DemoPage",

@@ -7,18 +7,18 @@ import NotFoundPage from './components/Pages/NotFoundPage.vue';
 
 /* Enlaces de navegación aplicación */
 
-import consultas from './components/app/consultas';
-import consumo from './components/app/consumo';
-import empleados from './components/app/empleados';
-import equipos from './components/app/equipos';
-import labores from './components/app/labores';
-import miempresa from './components/app/miempresa';
-import registrar from './components/app/registrar';
-import servicios from './components/app/servicios';
-import usuarios from './components/app/usuarios';
-import parcelas from './components/app/parcelas';
-import mantenimientos from './components/app/mantenimientos';
-import main from './components/app/main';
+import consultas from './components/consultas';
+import consumo from './components/consumo';
+import empleados from './components/empleados';
+import equipos from './components/equipos';
+import labores from './components/labores';
+import miempresa from './components/miempresa';
+import registrar from './components/registrar';
+import servicios from './components/servicios';
+import usuarios from './components/usuarios';
+import parcelas from './components/parcelas';
+import mantenimientos from './components/mantenimientos';
+import main from './components/main';
 
 export default [
     { path: '/', component: HomePage },
@@ -26,16 +26,16 @@ export default [
     { path: '/demo', component: DemoPage },
     { path: '/information', component: InfoPage},
     { path: '/app', component: main},
-    { path: '/app/consultas', component: consultas},
-    { path: '/app/consumos', component: consumo},
-    { path: '/app/empleados', component: empleados},
-    { path: '/app/equipos', component: equipos},
-    { path: '/app/labores', component: labores},
-    { path: '/app/miempresa', component: miempresa},
-    { path: '/app/registrar', component: registrar},
-    { path: '/app/servicios', component: servicios},
-    { path: '/app/usuarios', component: usuarios},
-    { path: '/app/parcelas', component: parcelas},
-    { path: '/app/mantenimientos', component: mantenimientos},
+    { path: '/consultas', component: consultas},
+    { path: '/consumos', component: consumo},
+    { path: '/empleados', component: empleados},
+    { path: '/equipos', component: equipos},
+    { path: '/labores', component: labores},
+    { path: '/miempresa', component: miempresa},
+    { path: '/registrar', component: registrar},
+    { path: '/servicios', component: servicios},
+    { path: '/usuarios', component: usuarios},
+    { path: '/parcelas', component: parcelas},
+    { path: '/mantenimientos', component: mantenimientos},
     { path: '*', component: NotFoundPage },
   ];
